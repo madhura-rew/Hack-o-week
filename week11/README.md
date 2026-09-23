@@ -36,7 +36,7 @@ X_scaled = scaler.fit_transform(X)
 # Reduce to 2 Dimensions
 pca = PCA(n_components=2)
 X_pca_2d = pca.fit_transform(X_scaled)
-
+```
 ## Results & Visualization
 <img width="1192" height="790" alt="download" src="https://github.com/user-attachments/assets/71c1665f-b324-4422-b25c-3ffd6b1c9f68" />
 Analysis:
